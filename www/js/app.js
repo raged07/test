@@ -6,7 +6,7 @@ console.log("Area del rectangulo es igual: "+area);
 
 var radio = 2
 var p = Math.PI
-var areacir = p*(radio*2)
+var areacir = p*Math.pow(radio,2)
 console.log("Area del circulo es igual: "+areacir);
 
 var h = 2
@@ -19,4 +19,8 @@ var phi = Math.PI
 var volum = (3/4)*(phi * Math.pow(radio3,3));
 console.log("Volumen de esfera es igual: "+volum);
 
-
+//imprimir en consola mi nombre con variable global, como crear una funcion     javascript
+//llamar a la funcion
+//console log con funcion 
+//closure
+//console log "hola"+var glo
