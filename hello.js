@@ -1,4 +1,4 @@
-var http = require ("http"); // http modulo que se encarga servir apps web
+var http = require ("http"); 
 
 var manejador = function(solicitud, respuesta){
     console.log("Recibi nueva peticion");
@@ -7,5 +7,5 @@ var manejador = function(solicitud, respuesta){
 
 var servidor = http.createServer(manejador);
 
-servidor.listen(8080);
+servidor.listen(8080);//coloca al servidor, listo para recibir peticiones
 
