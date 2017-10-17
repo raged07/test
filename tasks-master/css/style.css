@@ -1,0 +1,39 @@
+@import url("https://fonts.googleapis.com/css?family=Oleo+Script:400|Open+Sans:300,300italic,600,600italic,800");
+.bkg1{
+    background-image: url("../img/background1.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 200px;
+}
+.bkg2{
+    background-image: url("../img/time.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 600px;
+}
+.barra{
+    
+  border-top-color: #CC0000;
+  border-right-color: blue;
+  border-bottom-color: #00FF00;
+  border-left-color: #CCC;
+}
+.textto{
+font-family: 'Open Sans', sans-serif;
+		font-size: 13pt;
+}
+h2, h3, h4, h5, h6 {
+    color: #444;
+    font-weight: 800;
+}
+.bk3{
+    background-image: url("../img/K.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 165px;
+}
+.navi{
+    
+    display: inline;
+    
+}
